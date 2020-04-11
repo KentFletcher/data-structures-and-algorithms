@@ -14,8 +14,8 @@ For example:
 
 const isNum = (input) => {
   // Solution code here...
- let regex = /\d/;
- return regex.test(input);
+  let regex = /\d/;
+  return regex.test(input);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -39,8 +39,17 @@ Write a function named citiesAtoJ that takes in an array of city names and uses 
 
 const citiesAtoJ = (arr) => {
   // Solution code here...
-  let regex = /^[A-J]\w*/;
-  return arr.match(regex);
+  let cityMatch = [];
+
+  let regex = /^[A-J]/;
+
+  arr.forEach(city => {
+    if(city.match(regex)) {
+      cityMatch.push(city);
+    }
+  });
+
+  return cityMatch;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -57,6 +66,8 @@ Do not use the vertical bar (pipe) in your pattern.
 
 const matchMonth = (input) => {
   // Solution code here...
+  let regex = /^[Oo]ct(ober)?$/;
+  return regex.test(input);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -89,6 +100,7 @@ For example, 'Welcome to Code 301!' will return 'W_lc_m_ t_ C_d_ 301!'.
 
 let hangman = (str) => {
   // Solution code here...
+  return str.replace(/[aeiou]/gi, '_');
 };
 
 /* ------------------------------------------------------------------------------------------------
