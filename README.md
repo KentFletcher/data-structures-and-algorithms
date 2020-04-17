@@ -6,3 +6,4 @@ I will be doing daily code challenges and will include the names of the people I
 - For challenge 3, I worked with Ken Harman, and Peyton Cysewski.
 - Challenge 4 got help from code review in class
 - Challenge 6 got help from Peyton Cysewski
+- challenge 09 worked with Ken Harman, and got help from Brandon Gibbs assisted me on the last 3 problems.
