@@ -13,14 +13,14 @@ For example, count(5, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]]) returns 4.
 
 const count = (target, input) => {
   // Solution code here...
-  return input.reduce((acc, val, ind, array) => {
+  return input.reduce((acc, val) => {
     if (val.includes(target)){
       val.forEach(forX => acc.push(forX));
       return acc;
     }else{
       return acc;
     }
-  },[]).reduce((acc,val,ind,array) => {
+  },[]).reduce((acc,val) => {
     if (val === target){
       return acc +1;
     } else{
