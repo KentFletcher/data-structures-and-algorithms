@@ -7,4 +7,4 @@ I will be doing daily code challenges and will include the names of the people I
 - Challenge 4 got help from code review in class
 - Challenge 6 got help from Peyton Cysewski
 - challenge 09 worked with Ken Harman, and got help from Brandon Gibbs assisted me on the last 3 problems.
-- Challenge 10, Brandon Gibbs walked me through this entire exercise.
+- Challenge 10, Brandon Gibbs walked me through this entire exercise. 
